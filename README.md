@@ -15,3 +15,9 @@ The challenge issued involves building Instagram using Ruby on Rails. Users must
 ```ruby
 config.assets.paths << Rails.root.join("app", "assets", "fonts")
 ```
+- Calling in icons via a sprite
+
+- Chaining in filters in CSS
+```
+-webkit-filter: grayscale(100%) brightness(10) drop-shadow(1px 1px 1px rgba(4,40,71,.8));
+```

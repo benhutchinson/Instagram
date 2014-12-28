@@ -9,9 +9,27 @@
 <body>
 
 <nav>
-<span id="logo">
+<ul>
+
+<div class="header-box">
+<li id="home">
+
+</li>
+</div>
+
+<div class="logo-box">
+<li id="logo">
 <%= image_tag 'logo.svg', :class => "logo-image" %>
-</span>
+</li>
+</div>
+
+<div class="username-box">
+<li id="username">
+<%= image_tag 'user_avatar.jpg', :class => "avatar-image" %><span id="username-text">username</span>
+</li>
+</div>
+
+</ul>
 </nav>
 <content>
 <%= yield %>

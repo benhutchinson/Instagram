@@ -8,3 +8,10 @@ The challenge issued involves building Instagram using Ruby on Rails. Users must
 - Post
 - Comment/Description
 - Likes
+
+
+####New Things Learned From This Project
+- Adding a fonts folder to the asset path so that fonts can be embedded in the app and referenced via CSS
+```ruby
+config.assets.paths << Rails.root.join("app", "assets", "fonts")
+```

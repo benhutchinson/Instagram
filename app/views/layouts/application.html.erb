@@ -8,7 +8,24 @@
 </head>
 <body>
 
+<nav>
+<span id="logo">
+<%= image_tag 'logo.svg', :class => "logo-image" %>
+</span>
+</nav>
+<content>
 <%= yield %>
+</content>
+
+
+<aside class="left-sidebar">
+</aside>
+
+
+<aside class="right-sidebar">
+</aside>
+
+
 
 </body>
 </html>

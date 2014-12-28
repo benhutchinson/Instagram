@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('ProximaNova-Reg.ttf') format('truetype')
+}
+
+body {
+ background: #edeeef url("backgroundnoise.png");
+ -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #3f729b;
+  font-size: 1.4em;
+  font-family: 'proxima-nova','Helvetica Neue',Arial,Helvetica,sans-serif;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8)
+  font-weight: 700;
+}
+
+a:hover{
+  color: #3f729b;
+}
+
+a:visited{
+  color: #3f729b;
+}

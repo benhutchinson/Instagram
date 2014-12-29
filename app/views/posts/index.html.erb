@@ -1,60 +1,69 @@
-<section id="post-group">
+<% if @posts.any? %>
+  <% @posts.each do |post| %>
 
-  <section id="post-details">
-  </section>
+    <section id="post-group">
+      <section id="post-details">
+        <%= image_tag 'test_avatar.jpg', class: 'avatar-post' %>
+        <p><span id="username-post"><%= post.username %></span><br><span id="time-since-post">x hours ago</span></p>
+      </section>
 
-  <section id="main-element">
-    <section id="whole-post">
+      <section id="main-element">
+        <section id="whole-post">
 
-    <ul id="comments">
-    <section id="no-post">
-    <li>
-    <span class="comment-username">No posts</span>
-    <p><span class="comment-text"><a href="#">Post</a></span>
-    </li>
-    </section>
-    </ul>
+        <section id="picture">
+        <%= image_tag 'test_photo.jpg', class: 'photo' %>
+        </section>
 
-    </section>
-  </section>
+        <ul id="comments">
+        <section id="picture-comments">
+        <li>
+        <span class="comment-username"><%= post.username %></span><span class="comment-text"><%= post.comment %></span>
+        </li>
+        </section>
+        </ul>
 
-  <section id="blank-filler">
-    <p>
-  </section>
+        <section id="submit-comments">
+        <textarea id="comment-box" placeholder="Write a comment..."></textarea>
+        </section>
 
-</section>
+        </section>
+      </section>
 
-<section id="post-group">
-  <section id="post-details">
-    <%= image_tag 'test_avatar.jpg', class: 'avatar-post' %>
-    <p><span id="username-post">username</span><br><span id="time-since-post">x hours ago</span></p>
-  </section>
-
-  <section id="main-element">
-    <section id="whole-post">
-
-    <section id="picture">
-    <%= image_tag 'test_photo.jpg', class: 'photo' %>
-    </section>
-
-    <ul id="comments">
-    <section id="picture-comments">
-    <li>
-    <span class="comment-username">user </span><span class="comment-text">their comment</span>
-    </li>
-    </section>
-    </ul>
-
-    <section id="submit-comments">
-    <textarea id="comment-box" placeholder="Write a comment..."></textarea>
-    </section>
+      <section id="blank-filler">
+        <p>
+      </section>
 
     </section>
+
+  <% end %>
+
+<% else %>
+
+  <section id="post-group-no-post">
+
+    <section id="post-details">
+    </section>
+
+    <section id="main-element-no-post">
+      <section id="whole-post-no-post">
+
+      <ul id="comments">
+      <section id="no-post">
+      <li>
+      <span class="comment-username">No posts</span>
+      <p><span class="comment-text"><a href="#">Post</a></span>
+      </li>
+      </section>
+      </ul>
+
+      </section>
+
+    </section>
+
+    <section id="blank-filler">
+      <p>
+    </section>
+
   </section>
 
-  <section id="blank-filler">
-    <p>
-  </section>
-
-</section>
-
+<% end %>

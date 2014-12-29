@@ -25,11 +25,23 @@ feature 'posts: ' do
     scenario 'prompts a user to fill out a form, and then displays the new post' do
       visit '/posts'
       click_link 'Post'
-      fill_in 'comment', with: 'david bailey'
+      fill_in 'Comment', with: 'david bailey'
       click_button 'Post'
       expect(page).to have_content 'david bailey'
-      expect(current_path).to eq '/restaurants'
+      expect(current_path).to eq '/posts'
     end
   end
+
+  context 'deleting posts' do
+
+  before {Post.create(username: 'ben', comment: 'busted, i am the real david bailey')}
+
+  scenario 'removes a post when a user clicks a delete link' do
+    visit '/posts'
+    click_link 'Delete Post'
+    expect(page).not_to have_content 'david bailey'
+  end
+
+end
 
 end

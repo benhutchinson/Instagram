@@ -8,7 +8,7 @@
 
       <section id="no-post">
         
-        <%= form_for Post.new do |f| %>
+        <%= form_for @post do |f| %>
           <%= f.label :username %>
           <%= f.text_field :username %>
           <%= f.label :comment %>

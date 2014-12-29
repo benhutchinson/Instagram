@@ -67,16 +67,32 @@ nav{
   display: inline;
 }
 
+.post-box{
+  height: 44px;
+  width: 44px; 
+  float: left;
+  box-shadow: -1px 0 0 #5786aa;
+  cursor: pointer;
+  display: inline;
+}
+
+.post-image {
+  width: 26px;
+  height: 26px;
+  padding-top: 10px; 
+  padding-left: 6px; 
+  -webkit-filter: invert(100%);
+  opacity: 0.85;
+}
+
 .logo-box{
   height: 44px;
   text-align: center;
-  border-left: 1px solid #5786aa;
-  border-left-color: rgba(255,255,255,.1);
   border-right: 1px solid #5786aa;
   border-right-color: rgba(255,255,255,.1);
   display: inline;
   float: left;
-  width: 63%;
+  width: 58%;
 }
 
 .username-box{

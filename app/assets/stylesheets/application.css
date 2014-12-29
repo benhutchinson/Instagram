@@ -27,15 +27,6 @@ body {
  margin-top: 44px;
 }
 
-.nav_element_group {
-  margin-top: 0;
-  padding: 0;
-  top: 0;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 nav{
   position: fixed;
   margin-top: -44px;
@@ -47,6 +38,15 @@ nav{
   background-color: #517fa4;
   background-image: url("navbarnoise.png"),-webkit-linear-gradient(top,#517fa4,#306088);
   text-align: center;
+}
+
+.nav_element_group {
+  margin-top: 0;
+  top: 0;
+  text-align: center;
+  padding-left: 13%;
+  padding-right: 13%;
+  width: 100%; 
 }
 
 .header-box{
@@ -63,24 +63,26 @@ nav{
   background-image:url('sprite.png');
   background-position: 5px -194px;
   cursor: pointer;
+  display: inline;
 }
 
 .logo-box{
   height: 44px;
-  float: left;
-  padding-left: 11px; 
-  padding-right: 11px; 
-  min-width: 250px; 
   text-align: center;
   border-left: 1px solid #5786aa;
   border-left-color: rgba(255,255,255,.1);
   border-right: 1px solid #5786aa;
   border-right-color: rgba(255,255,255,.1);
+  display: inline;
+  float: left;
+  width: 63%;
 }
 
 .username-box{
+  width: 100px;
   height: 32px;
-  float: left; 
+  float: left;
+  display: block;
   padding-top: 12px; 
   padding-left: 11px;
   padding-right: 11px; 

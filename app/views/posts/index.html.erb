@@ -1,21 +1,74 @@
-
-
-
-<section id="main-element">
-
+<!-- 
 <p>No posts</p>
 <p><a href="#">Post</a></p>
+ -->
 
-<section id="picture">
-<%= image_tag 'test_photo.jpg', width: '510px', height: '510px' %>
+<section id="post-group">
+
+  <section id="post-details">
+    <%= image_tag 'test_avatar.jpg', class: 'avatar-post' %>
+    <p><span id="username-post">username</span><br><span id="time-since-post">x hours ago</span></p>
+  </section>
+
+  <section id="main-element">
+    <section id="whole-post">
+
+    <section id="picture">
+    <%= image_tag 'test_photo.jpg', class: 'photo' %>
+    </section>
+
+    <ul id="comments">
+    <section id="picture-comments">
+    <li>
+    <span class="comment-username">user </span><span class="comment-text">their comment</span>
+    </li>
+    </section>
+    </ul>
+
+    <section id="submit-comments">
+    <textarea id="comment-box" placeholder="Write a comment..."></textarea>
+    </section>
+
+    </section>
+  </section>
+
+  <section id="blank-filler">
+    <p>
+  </section>
+
 </section>
 
-<section id="picture-comments">
-user: their comment
+<section id="post-group">
+  <section id="post-details">
+    <%= image_tag 'test_avatar.jpg', class: 'avatar-post' %>
+    <p><span id="username-post">username</span><br><span id="time-since-post">x hours ago</span></p>
+  </section>
+
+  <section id="main-element">
+    <section id="whole-post">
+
+    <section id="picture">
+    <%= image_tag 'test_photo.jpg', class: 'photo' %>
+    </section>
+
+    <ul id="comments">
+    <section id="picture-comments">
+    <li>
+    <span class="comment-username">user </span><span class="comment-text">their comment</span>
+    </li>
+    </section>
+    </ul>
+
+    <section id="submit-comments">
+    <textarea id="comment-box" placeholder="Write a comment..."></textarea>
+    </section>
+
+    </section>
+  </section>
+
+  <section id="blank-filler">
+    <p>
+  </section>
+  
 </section>
 
-<section id="submit-comments">
-<textarea id="comment-box" placeholder="Write a comment..."></textarea>
-</section>
-
-</section>

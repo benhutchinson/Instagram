@@ -17,6 +17,11 @@ The challenge issued involves building Instagram using Ruby on Rails. Users must
 ```ruby
 config.assets.paths << Rails.root.join("app", "assets", "fonts")
 ```
+- Calling in browser tab icons & the rails favicon helper
+```<link rel="shortcut icon" href="icon.ico">```
+vs Rails helper
+```<%= favicon_link_tag 'browser_icon.ico' %>```
+
 - Calling in icons via a sprite
 
 - Chaining in filters in CSS

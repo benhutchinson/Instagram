@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <%= favicon_link_tag 'browser_icon.ico' %>
+<!--   <link rel="shortcut icon" href="http://d36xtkk24g8jdx.cloudfront.net/bluebar/2dc26eb/images/ico/favicon.ico"> -->
   <title>Instagram</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -11,27 +13,21 @@
 <nav>
 
 <div class="nav_element_group">
+  <div class="header-box">
+  </div>
 
-<div class="header-box">
+  <div class="logo-box">
+  <%= image_tag 'logo.svg', :class => "logo-image" %>
+  </div>
 
-</div>
-
-<div class="logo-box">
-<%= image_tag 'logo.svg', :class => "logo-image" %>
-</div>
-
-<div class="username-box">
-<%= image_tag 'user_avatar.jpg', :class => "avatar-image" %><span id="username-text">username</span>
-</div>
-
-
+  <div class="username-box">
+  <%= image_tag 'user_avatar.jpg', :class => "avatar-image" %><span id="username-text">username</span>
+  </div>
 </div>
 
 </nav>
 
 <%= yield %>
-
-
 
 </body>
 </html>

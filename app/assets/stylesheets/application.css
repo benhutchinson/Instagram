@@ -50,7 +50,6 @@ nav{
 }
 
 .header-box{
-  margin-left: 100px; 
   background-color: rgba(6,54,95,.35);
   background-image: url("navbarnoise.png");
   height: 44px;
@@ -192,6 +191,13 @@ section#post-details {
   opacity: 0.95;
 }
 
+.comment-text a {
+  font-family: 'proxima-nova';
+  opacity: 0.95;
+  text-decoration: none; 
+  color: black;
+}
+
 ul#comments {
   list-style: none;
   margin: 0px; 
@@ -222,7 +228,7 @@ section#whole-post {
 section#main-element {
   margin-left: 30px;
   margin-right: 30px; 
-  background: #E0E1E9 url("backgroundnoise.png");
+  background: #e0e1e2 url("backgroundnoise.png");
   width: 510px;
   padding: 32px 32px 16px 32px;
   box-shadow: inset 1px 0 0 rgba(0,0,0,.05),inset -1px 0 0 rgba(0,0,0,.05);
@@ -230,6 +236,7 @@ section#main-element {
   border-width: 0 1px;
   float: left;
   display: inline;
+  margin-bottom: -9px; 
 }
 
 section#picture {
@@ -238,8 +245,9 @@ section#picture {
   height: 510px;
   padding: 0px;
   margin: 0px;
-  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
   border-bottom: 1px solid #e6e6e6;
+  border-radius: 3px; 
 }
 
 section#picture-comments {
@@ -248,6 +256,18 @@ section#picture-comments {
   padding: 12px 12px 1px 14px;
   margin-bottom: 0px; 
   line-height: 20px; 
+  box-shadow: 1px 1px 1px rgba(0,0,0,.04);
+}
+
+section#no-post {
+  background: white;
+  width: 484px;
+  padding: 12px 12px 1px 14px;
+  margin-bottom: 0px; 
+  line-height: 20px; 
+  box-shadow: 0px 1px 1px rgba(0,0,0,.04);
+  border-radius: 2px; 
+  border-right: 1px solid silver;
 }
 
 section#submit-comments {
@@ -255,7 +275,7 @@ section#submit-comments {
   background: white;
   width: 484px;
   padding: 13px;
-  border-radius: 0px 0px 3px 3px; 
+  border-radius: 0px 0px 5px 3px; 
 }
 
 a {

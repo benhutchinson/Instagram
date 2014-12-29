@@ -13,14 +13,16 @@
 <nav>
 
 <div class="nav_element_group">
+  <%= link_to(posts_path) do %>
   <div class="header-box">
   </div>
+  <% end %>
   <div class="post-box">
-  <%= image_tag 'cameraicon.png', :class => "post-image" %>
+  <%= link_to (image_tag 'cameraicon.png', :class => "post-image"), new_post_path %>
   </div>
 
   <div class="logo-box">
-  <%= image_tag 'logo.svg', :class => "logo-image" %>
+  <%= link_to (image_tag 'logo.svg', :class => "logo-image"), posts_path %>
   </div>
 
   <div class="username-box">

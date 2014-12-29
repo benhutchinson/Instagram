@@ -283,7 +283,7 @@ section#submit-comments {
 a {
   color: #3f729b;
   font-family: 'proxima-nova-bold','Helvetica Neue',Arial,Helvetica,sans-serif;
-  text-shadow: 0 1px 0 rgba(255,255,255,.8)
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
   font-weight: 700;
 }
 

@@ -11,7 +11,7 @@
         <section id="whole-post">
 
         <section id="picture">
-        <%= image_tag 'test_photo.jpg', class: 'photo' %>
+        <%= image_tag post.image.url(:main), class: 'photo' %>
         </section>
 
         <section id="picture-stats">
@@ -23,6 +23,16 @@
         <li>
         <span class="comment-username"><%= post.username %></span><span class="comment-text"><%= post.comment %></span>
         </li>
+
+
+        <% if post.comments.any? %>
+          <% post.comments.each do |comment| %>
+            <li>
+            <span class="comment-username"><%= comment.username %></span><span class="comment-text"><%= comment.comments %></span>  
+            </li>
+          <% end %>
+        <% end %>
+
         </section>
         </ul>
 

@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   
   def index
-    @posts=Post.all
+    @posts = Post.all
   end
 
   def new
@@ -14,7 +14,7 @@ class PostsController < ApplicationController
   end
 
   def post_params
-    params.require(:post).permit(:username, :comment)
+    params.require(:post).permit(:username, :comment, :image)
   end
 
   def destroy

@@ -85,6 +85,31 @@ nav{
   opacity: 0.85;
 }
 
+.post-image:hover {
+  opacity: 1;
+}
+
+.sign-out-box{
+  height: 44px;
+  width: 40px; 
+  float: left;
+  cursor: pointer;
+  display: inline;
+}
+
+.sign-out-image {
+  width: 17px;
+  height: 17px;
+  padding-top: 13px; 
+  padding-left: 6px; 
+  -webkit-filter: invert(100%);
+  opacity: 0.85;
+}
+
+.sign-out-image:hover {
+  opacity: 1;
+}
+
 .logo-box{
   height: 44px;
   text-align: center;
@@ -92,7 +117,7 @@ nav{
   border-right-color: rgba(255,255,255,.1);
   display: inline;
   float: left;
-  width: 58%;
+  width: 56%;
 }
 
 .username-box{

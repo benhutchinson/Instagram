@@ -1,6 +1,6 @@
 <%= form_for [@post, @anecdote] do |f| %>
   <%= f.hidden_field :username, :value => current_user.username %>
-  <%= f.label :ancedote %>
-  <%= f.text_area :anecdote %>
+  <%= f.label :comments %>
+  <%= f.text_area :comments %>
   <%= f.submit 'Leave Comment' %>
 <% end %>

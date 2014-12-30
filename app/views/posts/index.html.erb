@@ -33,7 +33,7 @@
         <% if post.comments.any? %>
           <% post.comments.each do |comment| %>
             <li>
-            <span class="comment-username"><%= comment.username %></span><span class="comment-text"><%= comment.comments %></span>  
+            <span class="comment-username"><%= comment.username %> </span><span class="comment-text"><%= comment.comments %></span>  
             </li>
           <% end %>
         <% end %>

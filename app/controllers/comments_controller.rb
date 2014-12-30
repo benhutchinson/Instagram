@@ -12,7 +12,7 @@ class CommentsController < ApplicationController
   end
 
   def anecdote_params
-    params.require(:anecdote).permit(:username, :anecdote)
+    params.require(:comment).permit(:username, :comments)
   end
 
 end

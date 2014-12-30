@@ -12,7 +12,7 @@
 
   <script>
   $(document).ready(function() {
-    jQuery("abbr.timeago").timeago();
+    $("abbr.timeago").timeago();
   });
   </script>
 
@@ -37,7 +37,10 @@
   </div>
 
   <div class="username-box">
-  <%= image_tag 'user_avatar.jpg', :class => "avatar-image" %><span id="username-text"><%= current_user.username %></span>
+    <% if user_signed_in? %>
+    <%= image_tag 'user_avatar.jpg', :class => "avatar-image" %><span id="username-text"><%= current_user.username %></span>
+      <% else %>
+    <% end %>
   </div>
   <div class="sign-out-box">
     <% if user_signed_in? %>

@@ -40,3 +40,9 @@ vs Rails helper
 ``` html
 <abbr id="time-since-post" class="timeago" title="<%= post.created_at.getutc.iso8601 %>"><%= post.created_at.to_s %></abbr>
 ```
+
+```javascript
+$(document).ready(function() {
+  $("abbr.timeago").timeago();
+});
+```

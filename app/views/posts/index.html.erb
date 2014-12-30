@@ -1,6 +1,6 @@
 <% if @posts.any? %>
   <% @posts.each do |post| %>
-  
+
     <section id="post-group">
       <section id="post-details">
         <%= image_tag 'test_avatar.jpg', class: 'avatar-post' %>
@@ -17,7 +17,12 @@
         <section id="picture-stats">
           <div class="like-button"></div>
           <span class="likes-count"># likes</span>
-          <span class="delete-option"><%= link_to (image_tag 'deleteicon.png', :class => "delete-icon"), post_path(post), method: :delete %></span>
+
+          <% if post.username == current_user.username %>
+            <span class="delete-option"><%= link_to (image_tag 'deleteicon.png', :class => "delete-icon"), post_path(post), method: :delete %></span>
+          <% else %>
+          <% end %>
+          
         </section>
 
         <ul id="comments">

@@ -15,7 +15,9 @@
         </section>
 
         <section id="picture-stats">
-          <p class="comment-text"><%= link_to "Delete Post", post_path(post), method: :delete %></p>
+          <div class="like-button"></div>
+          <span class="likes-count"># likes</span>
+          <span class="delete-option"><%= link_to (image_tag 'deleteicon.png', :class => "delete-icon"), post_path(post), method: :delete %></span>
         </section>
 
         <ul id="comments">

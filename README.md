@@ -11,6 +11,8 @@ The challenge issued involves building Instagram using Ruby on Rails. Users must
 
 ####Things To Improve
 - Responsive
+- AWS for hosting static files
+- Creating a bespoke sprite and deleting unused icons from sprite
 
 ####New Things Learned From This Project
 - Adding a fonts folder to the asset path so that fonts can be embedded in the app and referenced via CSS
@@ -28,3 +30,5 @@ vs Rails helper
 ```
 -webkit-filter: grayscale(100%) brightness(10) drop-shadow(1px 1px 1px rgba(4,40,71,.8));
 ```
+
+- Added Devise username functionality and edited Devise views

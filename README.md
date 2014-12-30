@@ -32,3 +32,11 @@ vs Rails helper
 ```
 
 - Added Devise username functionality and edited Devise views
+
+- that Rails comes with jQuery out of the box
+
+- the timeago jQuery plug-in for displaying abbreviated "fuzzy" timestamps that describe the time since a post (http://timeago.yarp.com)
+
+``` html
+<abbr id="time-since-post" class="timeago" title="<%= post.created_at.getutc.iso8601 %>"><%= post.created_at.to_s %></abbr>
+```

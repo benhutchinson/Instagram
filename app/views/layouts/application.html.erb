@@ -2,12 +2,20 @@
 <html>
 <head>
   <%= favicon_link_tag 'browser_icon.ico' %>
-<!--   <link rel="shortcut icon" href="http://d36xtkk24g8jdx.cloudfront.net/bluebar/2dc26eb/images/ico/favicon.ico"> -->
+  
   <title>Instagram</title>
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
+  <script>
+  $(document).ready(function() {
+    jQuery("abbr.timeago").timeago();
+  });
+  </script>
+
 <body>
 
 <nav>

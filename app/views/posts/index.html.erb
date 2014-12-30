@@ -1,10 +1,10 @@
 <% if @posts.any? %>
   <% @posts.each do |post| %>
-
+  
     <section id="post-group">
       <section id="post-details">
         <%= image_tag 'test_avatar.jpg', class: 'avatar-post' %>
-        <p><span id="username-post"><%= post.username %></span><br><span id="time-since-post">x hours ago</span></p>
+        <p><span id="username-post"><%= post.username %></span><br><abbr id="time-since-post" class="timeago" title="<%= post.created_at.getutc.iso8601 %>"><%= post.created_at.to_s %></abbr></p>
       </section>
 
       <section id="main-element">

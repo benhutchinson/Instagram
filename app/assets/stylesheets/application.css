@@ -101,7 +101,7 @@ nav{
   width: 17px;
   height: 17px;
   padding-top: 13px; 
-  padding-left: 6px; 
+  padding-left: 0px; 
   -webkit-filter: invert(100%);
   opacity: 0.85;
 }
@@ -127,24 +127,16 @@ nav{
   display: block;
   padding-top: 12px; 
   padding-left: 11px;
-  padding-right: 11px; 
-  border-right: 1px solid #06365f;
-  border-right-color: rgba(0,0,0,.1);
+  padding-right: 3px; 
   border-left: 1px solid #06365f;
   border-left-color: rgba(0,0,0,.1);
-  box-shadow: 1px 0 1px -1px  #5786aa;
+  box-shadow: 0px 0 1px -1px  #5786aa;
   font-weight: 700;
   text-shadow: 0 1px 0 rgba(3,27,47,.5);
   color: white;
   line-height: 20px; 
   opacity: 0.95;
   letter-spacing: -0.5px;
-  cursor: pointer;
-}
-
-.username-box:hover{
-  background-color: #5983A4;
-  background-image: url("navbarnoise.png");
 }
 
 #username-text{

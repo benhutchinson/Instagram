@@ -15,14 +15,12 @@
         </section>
 
         <section id="picture-stats">
-          <div class="like-button"></div>
-          <span class="likes-count"># likes</span>
-
+            <%= link_to "", post_likes_path(post), class: 'like-button' %><span class="likes_count" style="font-size: 0.95em; opacity: 0.7; margin-left: 10px;"><%= pluralize(post.likes.count, "like") %></span>
           <% if post.username == current_user.username %>
             <span class="delete-option"><%= link_to (image_tag 'deleteicon.png', :class => "delete-icon"), post_path(post), method: :delete %></span>
           <% else %>
           <% end %>
-          
+
         </section>
 
         <ul id="comments">
@@ -44,6 +42,9 @@
         </ul>
 
         <section id="submit-comments">
+
+        <%= link_to "Submit a comment", new_post_comment_path(post) %>
+        
         <textarea id="comment-box" placeholder="Write a comment..."></textarea>
         </section>
 

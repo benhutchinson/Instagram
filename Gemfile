@@ -34,10 +34,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'paperclip'
 gem 'devise'
+gem 'jquery-turbolinks'
 
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
 end
 
 group :development, :test do

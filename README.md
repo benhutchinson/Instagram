@@ -17,12 +17,15 @@ config.assets.paths << Rails.root.join("app", "assets", "fonts")
 ```
 
 - How to call in browser tab icons via the rails favicon helper:
+
 ```ruby
-<%= favicon_link_tag 'favicon.ico' %>```
+<%= favicon_link_tag 'favicon.ico' %>
+```
 
 - How to load icons from a sprite file
 
 - How to chain filters in CSS
+
 ```css
 -webkit-filter: grayscale(100%) brightness(10) drop-shadow(1px 1px 1px rgba(4,40,71,.8));
 ```
@@ -37,6 +40,7 @@ $('#comment-box').keypress(function(e){
      $('#comment-form').submit();
    }
 });
+```
  
 - That the ["timeago" jQuery](http://timeago.yarp.com) plug-in makes displaying abbreviated timestamps in a user-friendly format very easy. 
 

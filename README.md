@@ -10,7 +10,11 @@ This challenge involves building Instagram using Ruby on Rails. Users must be ab
 - Likes
 
 ####New Things I Learned In This Project
-- How to add a fonts folder to the asset path so that fonts can be embedded in an app and referenced via CSS: ```ruby config.assets.paths << Rails.root.join("app", "assets", "fonts") ```
+- How to add a fonts folder to the asset path so that fonts can be embedded in an app and referenced via CSS: 
+
+```ruby 
+config.assets.paths << Rails.root.join("app", "assets", "fonts")
+```
 
 - How to call in browser tab icons via the rails favicon helper:
 ```ruby

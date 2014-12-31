@@ -36,6 +36,8 @@ gem 'paperclip'
 gem 'devise'
 gem 'jquery-turbolinks'
 
+gem 'rails_12factor', group: :production
+
 group :test do
   gem 'rspec-rails'
   gem 'capybara'

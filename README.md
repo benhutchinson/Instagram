@@ -58,6 +58,7 @@ $(document).ready(function() {
 
 - That Rails comes with jQuery out of the box....
 
+- That jQuery performance can be influenced via 'turbolinks' so ```gem 'jquery-turbolinks'``` can be useful to ensure a more consistent user experience 
 
 ####Things To Improve
 - Responsive Design

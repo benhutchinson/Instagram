@@ -17,7 +17,7 @@ class PostsController < ApplicationController
   end
 
   def post_params
-    params.require(:post).permit(:username, :comment, :image)
+    params.require(:post).permit(:username, :user_id, :comment, :image)
   end
 
   def destroy

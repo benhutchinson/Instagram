@@ -44,7 +44,7 @@
 
   <div class="username-box">
     <% if user_signed_in? %>
-    <%= image_tag 'user_avatar.jpg', :class => "avatar-image" %><span id="username-text"><%= current_user.username %></span>
+    <%= image_tag(current_user.avatar.url(:top), :class => 'avatar-image') %><span id="username-text"><%= current_user.username %></span>
       <% else %>
     <% end %>
   </div>

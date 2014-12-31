@@ -4,6 +4,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.all
+    @anecdote = Comment.new
   end
 
   def new

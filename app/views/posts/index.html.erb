@@ -42,10 +42,11 @@
         </ul>
 
         <section id="submit-comments">
-
-        <%= link_to "Submit a comment", new_post_comment_path(post) %>
-        
-        <textarea id="comment-box" placeholder="Write a comment..."></textarea>
+          <%= form_for [post, @anecdote] do |f| %>
+            <%= f.hidden_field :username, :value => current_user.username %>
+            <%= f.text_area :comments, :id => "comment-box", :placeholder => "Write a comment..." %>
+            <%= f.submit 'Leave Comment' %>
+          <% end %>
         </section>
 
         </section>

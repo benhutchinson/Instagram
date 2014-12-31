@@ -1,20 +1,15 @@
 Instagram
 =========
 
-The challenge issued involves building Instagram using Ruby on Rails. Users must be able to post pictures, write comments on pictures and like a picture.  The design should mirror or improve upon Instagram and as a bonus, users could be able to apply filters to the images they upload.
+The challenge issued involves building Instagram using Ruby on Rails. Users must be able to post pictures, write comments on pictures and like a picture.  The design should mirror or improve upon Instagram and as a bonus, users could be able to apply filters to the images they upload. The challenge builds on and consolidates the skills learned during a previous project building a clone of Yelp.
 
 ####List Of Core Models For The App
 - User
 - Post
-- Comment/Description
+- Comments
 - Likes
 
-####Things To Improve
-- Responsive
-- AWS for hosting static files
-- Creating a bespoke sprite and deleting unused icons from sprite
-
-####New Things Learned From This Project
+####New Things I Learned In This Project
 - Adding a fonts folder to the asset path so that fonts can be embedded in the app and referenced via CSS
 ```ruby
 config.assets.paths << Rails.root.join("app", "assets", "fonts")
@@ -46,3 +41,19 @@ $(document).ready(function() {
   $("abbr.timeago").timeago();
 });
 ```
+
+- textarea submit on "enter" key rather than traditional submit button.  Functionality achieved via jQuery
+
+```javascript
+$('#comment-box').keypress(function(e){
+  if(e.which == 13){
+     $('#comment-form').submit();
+   }
+});
+```
+
+####Things To Improve
+- Responsive
+- AWS for hosting static files
+- Creating a bespoke sprite and deleting unused icons from sprite
+- Mobile Design.

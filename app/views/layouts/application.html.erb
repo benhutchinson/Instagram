@@ -11,9 +11,15 @@
 </head>
 
   <script>
-  $(document).ready(function() {
-    $("abbr.timeago").timeago();
-  });
+    $(document).ready(function() {
+      $("abbr.timeago").timeago();
+
+      $('#comment-box').keypress(function(e){
+        if(e.which == 13){
+             $('#comment-form').submit();
+         }
+      });
+    });
   </script>
 
 <body>

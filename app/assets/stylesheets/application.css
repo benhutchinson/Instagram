@@ -66,9 +66,9 @@ body {
 }
 
 .devise-links a {
-  font-size: 1em;
+  font-size: 0.9em;
   text-decoration: none;
-  opacity: 0.45;
+  opacity: 0.15;
 }
 
 .devise-links a:hover {
@@ -78,7 +78,7 @@ body {
 #front-sign-in-page {
   margin-left: 24%;
   margin-right: 21%;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 #left-sign-in-page {
@@ -92,6 +92,12 @@ body {
 #right-sign-in-page {
   display: inline;
   float: left;
+}
+
+#help-links {
+  display: block;
+  clear: both;
+  text-align: center;
 }
 
 nav{

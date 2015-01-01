@@ -28,6 +28,16 @@ body {
  height: 100%;
 }
 
+#front-page-animation path, line, polyline {
+    stroke: gray;
+    stroke-width: 3px;
+  }
+
+#front-page-animation path {
+    fill: transparent;
+  }
+
+
 nav{
   position: fixed;
   margin-top: -44px;

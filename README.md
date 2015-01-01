@@ -30,7 +30,7 @@ config.assets.paths << Rails.root.join("app", "assets", "fonts")
 -webkit-filter: grayscale(100%) brightness(10) drop-shadow(1px 1px 1px rgba(4,40,71,.8));
 ```
 
-- How to extend Devise to offer a more intuitive username-based log-in rather than just email
+- How to extend Devise to offer a more intuitive username-based log-in rather than just email and add an avatar image to a username
 
 - How to use jQuery to allow a user to submit from a textarea element by simply pressing enter rather than clicking a traditional submit button.  
 
@@ -58,10 +58,16 @@ $(document).ready(function() {
 
 - That Rails comes with jQuery out of the box....
 
-- That jQuery performance can be influenced via 'turbolinks' so ```gem 'jquery-turbolinks'``` can be useful to ensure a more consistent user experience 
+- That jQuery performance can be influenced via 'turbolinks' so ```gem 'jquery-turbolinks'``` can be useful to ensure a more consistent user experience
+
+- How to reset a Heroku PostgreSQL database...
+
+- How to rollback database migrations
 
 ####Things To Improve
 - Responsive Design
 - Mobile Design
 - AWS for hosting static files
 - A bespoke sprite could be created, and unused icons deleted
+- Offer users ability to modify their profile
+- Perhaps restrict the number of comments/likes individual users can make

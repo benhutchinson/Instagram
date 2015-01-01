@@ -3,7 +3,7 @@
 
     <section id="post-group">
       <section id="post-details">
-        <%= image_tag(post.user.avatar_file_name, :class => 'avatar-post') %>
+        <%= image_tag(post.user.avatar.url(:side), :class => 'avatar-post') %>
         <p><span id="username-post"><%= post.username %></span><br><abbr id="time-since-post" class="timeago" title="<%= post.created_at.getutc.iso8601 %>"><%= post.created_at.to_s %></abbr></p>
       </section>
 

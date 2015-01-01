@@ -29,7 +29,7 @@ body {
 }
 
 #front-page-animation path, line, polyline {
-    stroke: gray;
+    stroke: #16a085;
     stroke-width: 3px;
   }
 
@@ -37,6 +37,62 @@ body {
     fill: transparent;
   }
 
+#front-page-animation:hover path, line, polyline {
+    stroke: #2c3e50;
+    stroke-width: 4px;
+  }
+
+#front-sign-in-form input {
+  border: 1px solid #F8F9FA;
+  padding: 12px 15px 12px 15px;
+  margin-bottom: 15px; 
+  background-color: transparent;
+  font-size: 1em; 
+  border-radius: 4px; 
+  text-align: right;
+  color: #16a085;
+}
+
+#front-sign-in-form input:focus {
+  outline: none;
+  border-color: white;
+  opacity: 1;
+  color: #2c3e50; 
+}
+
+#front-sign-in-form ::-webkit-input-placeholder {
+  color: #16a085;
+  text-align: right;
+}
+
+.devise-links a {
+  font-size: 1em;
+  text-decoration: none;
+  opacity: 0.45;
+}
+
+.devise-links a:hover {
+  opacity: 1; 
+}
+
+#front-sign-in-page {
+  margin-left: 24%;
+  margin-right: 21%;
+  margin-top: 100px;
+}
+
+#left-sign-in-page {
+  padding-top: 100px; 
+  display: inline;
+  float: left;
+  margin-right: 90px;
+  text-align: right;
+}
+
+#right-sign-in-page {
+  display: inline;
+  float: left;
+}
 
 nav{
   position: fixed;

@@ -56,6 +56,8 @@ $(document).ready(function() {
 
 - How to edit Devise views
 
+- The benefits of SVG graphics with [Walkway.js for the front-page sign-in screen](http://www.connoratherton.com/walkway)
+
 - That Rails comes with jQuery out of the box....
 
 - That jQuery performance can be influenced via 'turbolinks' so ```gem 'jquery-turbolinks'``` can be useful to ensure a more consistent user experience

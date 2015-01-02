@@ -29,18 +29,18 @@ body {
 }
 
 #front-page-animation path, line, polyline {
-    stroke: #16a085;
-    stroke-width: 3px;
-  }
+  stroke: #16a085;
+  stroke-width: 3px;
+}
 
 #front-page-animation path {
-    fill: transparent;
-  }
+  fill: transparent;
+}
 
 #front-page-animation:hover path, line, polyline {
-    stroke: #2c3e50;
-    stroke-width: 4px;
-  }
+  stroke: #2c3e50;
+  stroke-width: 4px;
+}
 
 #password-page-animation path, line, polyline {
   stroke: #2c3e50;
@@ -52,6 +52,19 @@ body {
   }
 
 #password-page-animation:hover path, line, polyline {
+    stroke: white;
+  }
+
+#new-user-page-animation path, line, polyline {
+  stroke: #16a085;
+  stroke-width: 3px;
+}
+
+#new-user-page-animation path {
+    fill: transparent;
+  }
+
+#new-user-page-animation:hover path, line, polyline {
     stroke: white;
   }
 
@@ -76,6 +89,50 @@ body {
 #front-sign-in-form ::-webkit-input-placeholder {
   color: #16a085;
   text-align: right;
+}
+
+#new-user-page {
+  margin-left: 18%;
+  margin-right: 19%;
+  margin-top: 80px;
+}
+
+#new-user-form input {
+  border-color: transparent;
+  padding-bottom: 15px;
+  margin-bottom: 15px; 
+  padding-top: 2px; 
+  background-color: transparent;
+  font-size: 1em; 
+  border-radius: 4px; 
+  text-align: left;
+  color: #16a085;
+  border-bottom: 1px solid #2c3e50;
+}
+
+#new-user-form input:focus {
+  outline: none;
+  opacity: 1;
+  color: white; 
+  border-bottom: 1px solid white;
+}
+
+#new-user-form ::-webkit-input-placeholder {
+  color: #16a085;
+  text-align: left;
+}
+
+#left-new-user-page {
+  display: inline;
+  float: left;
+  margin-right: 60px;
+  text-align: right;
+}
+
+#right-new-user-page {
+  margin-top: 50px; 
+  display: inline;
+  float: left;
 }
 
 #password-form input {

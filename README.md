@@ -58,6 +58,8 @@ $(document).ready(function() {
 
 - The benefits of SVG graphics with [Walkway.js for the front-page sign-in screen](http://www.connoratherton.com/walkway)
 
+- How to mirror an SVG file along its x-axis
+
 - That Rails comes with jQuery out of the box....
 
 - That jQuery performance can be influenced via 'turbolinks' so ```gem 'jquery-turbolinks'``` can be useful to ensure a more consistent user experience
@@ -73,3 +75,4 @@ $(document).ready(function() {
 - A bespoke sprite could be created, and unused icons deleted
 - Offer users ability to modify their profile
 - Perhaps restrict the number of comments/likes individual users can make
+- Spend more time researching styling of f.file_field and checkboxes

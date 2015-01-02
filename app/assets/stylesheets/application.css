@@ -190,7 +190,8 @@ body {
 #front-sign-in-page {
   margin-left: 23%;
   margin-right: 21%;
-  margin-top: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #left-sign-in-page {

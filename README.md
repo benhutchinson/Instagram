@@ -78,3 +78,4 @@ $(document).ready(function() {
 - Spend more time researching styling of f.file_field, checkboxes, browser autocomplete
 - Vertically-centre the sign-in elements?
 - Revisit overall design consistency
+- Integrate Devise Error Messages Neatly Into Design

@@ -35,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'paperclip'
 gem 'devise'
 gem 'jquery-turbolinks'
-
+gem 'aws-sdk'
 gem 'rails_12factor', group: :production
 
 group :test do

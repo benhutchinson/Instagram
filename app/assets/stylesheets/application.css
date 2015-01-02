@@ -192,6 +192,7 @@ body {
   margin-right: 21%;
   margin-top: auto;
   margin-bottom: auto;
+  height: 100%;
 }
 
 #left-sign-in-page {
@@ -200,11 +201,13 @@ body {
   float: left;
   margin-right: 90px;
   text-align: right;
+  height: 100%;
 }
 
 #right-sign-in-page {
   display: inline;
   float: left;
+  height: 100%;
 }
 
 #help-links {

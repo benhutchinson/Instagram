@@ -1,7 +1,7 @@
 Instagram
 =========
 
-This challenge involves building Instagram using Ruby on Rails. Users must be able to post pictures, write comments on pictures, and like a picture.  The design should mirror or improve upon Instagram. The challenge draws on experience from a previous project building a clone of Yelp.  I chose to learn a little about SVG and use this to style the key registration and sign-in pages.  The app is [hosted on Heroku.](https://beninstagram.herokuapp.com)
+This challenge involves building Instagram using Ruby on Rails. Users must be able to post pictures, write comments on pictures, and like a picture.  The design should mirror or improve upon Instagram. The challenge draws on experience from a previous project building a clone of Yelp.  I chose to learn a little about SVG and use this to style the key registration and sign-in pages.  The app is [hosted on Heroku.](https://benistgrm.herokuapp.com/)
 
 ####List Of Core Models For The App
 - User

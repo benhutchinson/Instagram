@@ -92,7 +92,7 @@ body {
 }
 
 #new-user-page {
-  margin-left: 17%;
+  margin-left: 20%;
   margin-right: 18%;
   margin-top: 80px;
 }
@@ -125,7 +125,7 @@ body {
 #left-new-user-page {
   display: inline;
   float: left;
-  margin-right: 90px;
+  margin-right: 85px;
   text-align: right;
 }
 

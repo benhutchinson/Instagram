@@ -76,3 +76,4 @@ $(document).ready(function() {
 - Offer users ability to modify their profile
 - Perhaps restrict the number of comments/likes individual users can make
 - Spend more time researching styling of f.file_field and checkboxes
+- Vertically-centre the sign-in elements?

@@ -68,7 +68,7 @@ $(document).ready(function() {
 
 - How to rollback database migrations
 
-####Things To Improve
+####Things To Improve Project
 - Responsive Design
 - Mobile Design
 - AWS for hosting static files
@@ -77,3 +77,4 @@ $(document).ready(function() {
 - Perhaps restrict the number of comments/likes individual users can make
 - Spend more time researching styling of f.file_field, checkboxes, browser autocomplete
 - Vertically-centre the sign-in elements?
+- Revisit overall design consistency

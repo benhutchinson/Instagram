@@ -438,9 +438,9 @@ section#post-group {
 }
 
 section#post-group-no-post {
-  width: 1036px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
   display: block;
   float: center;
   clear: both;
@@ -474,20 +474,31 @@ section#main-element {
 }
 
 section#whole-post-no-post{
-  border: 1px solid silver;
-  border-radius: 3px;
-  box-shadow: 0 1px 16px rgba(0,0,0,.1);
+  width: 100%;
+  height: 100%;
+  margin-left: -40px; 
+  text-align: center;
 }
 
 section#main-element-no-post {
-  margin-left: 30px;
-  margin-right: 30px; 
-  width: 510px;
+  margin-left: 0px;
+  margin-right: 0px; 
+  margin-top: 0px; 
+  text-align: center;
+  width: 100%;
+  height: 940px;
   overflow: hidden;
   padding: 32px 32px 16px 32px;
   float: left;
   display: inline;
-  margin-bottom: -9px; 
+  margin-bottom: -30px; 
+  background-image: url('photobg.jpg');
+  -webkit-filter: grayscale(100%);
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  border-bottom: 1px solid silver;
+  border-top: 1px solid slate;
+  box-shadow: inset 1px 0 0 rgba(0,0,0,.05),inset -1px 0 0 rgba(0,0,0,.05);
 }
 
 section#picture {
@@ -561,15 +572,42 @@ section#picture-comments {
 }
 
 section#no-post {
-  background: white;
-  width: 484px;
-  padding: 12px 12px 1px 14px;
-  margin-bottom: 0px; 
+  width: 337px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;  
   line-height: 20px; 
-  box-shadow: 0px 1px 1px rgba(0,0,0,.04);
-  border-radius: 2px; 
-  border-right: 1px solid silver;
+  border-radius: 1px;
+  border: 1px solid silver;
+  background: white;
+  opacity: 0.8;  
+  text-align: right; 
 }
+
+section#no-post input {
+  border: 1px solid transparent;
+  padding: 10px 15px 0px 15px;
+  margin-bottom: 15px; 
+  background-color: white;
+  font-size: 1em; 
+  border-radius: 2px; 
+  border-bottom: 1px solid silver; 
+  color: black;
+  font-family: 'proxima-nova-bold';
+}
+
+section#no-post input:focus {
+  outline: none;
+  border-bottom-color: silver;
+  text-align: left;
+}
+
+section#no-post ::-webkit-input-placeholder {
+  color: black;
+  text-align: left;
+}
+
 
 section#submit-comments {
   margin-top: 0px; 

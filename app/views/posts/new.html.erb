@@ -1,26 +1,17 @@
 <section id="post-group-no-post">
 
-    <section id="post-details">
-    </section>
-
     <section id="main-element-no-post">
       <section id="whole-post-no-post">
 
       <section id="no-post">
 
-        <% if user_signed_in? %>
           <%= form_for @post, html: {multipart: true} do |f| %>
             <%= f.hidden_field :username, :value => current_user.username %>
             <%= f.hidden_field :user_id, :value => current_user.id %>
-            <%= f.file_field :image %>
-            <%= f.label :comment %>
-            <%= f.text_field :comment %>
-            <%= f.submit %>
+            <%= f.file_field :image %><br />
+            <p><%= f.text_field :comment, :placeholder => "// add a comment" %>
+            <p><%= f.submit "// post" %>
           <% end %>
-        <% else %>
-          <%= link_to "Sign in", new_user_session_path %>
-          <%= link_to "Sign up", new_user_registration_path %>
-        <% end %>
 
       </section>
 
@@ -33,3 +24,4 @@
     </section>
 
   </section>
+  </body>

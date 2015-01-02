@@ -95,6 +95,7 @@ body {
   margin-left: 20%;
   margin-right: 18%;
   margin-top: 80px;
+  width: 805px;
 }
 
 #new-user-form input {
@@ -169,9 +170,10 @@ body {
 }
 
 #password-page {
-  margin-left: 18%;
+  margin-left: 20%;
   margin-right: 19%;
   margin-top: 80px;
+  width: 805px;
 }
 
 #left-password-page {
@@ -193,6 +195,7 @@ body {
   margin-top: auto;
   margin-bottom: auto;
   height: 100%;
+  width: 805px;
 }
 
 #left-sign-in-page {

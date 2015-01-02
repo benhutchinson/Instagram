@@ -43,7 +43,7 @@
         <section id="submit-comments">
           <%= form_for [post, @anecdote], :html => {:id => "comment-form"} do |f| %>
             <%= f.hidden_field :username, :value => current_user.username %>
-            <%= f.text_area :comments, :id => "comment-box", :placeholder => "Write a comment..." %>
+            <%= f.text_area :comments, :class => "comment-box", :placeholder => "Write a comment..." %>
           <% end %>
         </section>
 

@@ -388,7 +388,7 @@ section#post-details {
   height: 510px;
 }
 
-#comment-box {
+.comment-box {
   width: 463px;
   height: 25px;
   margin: 0px;
@@ -581,7 +581,7 @@ section#no-post {
   border-radius: 1px;
   border: 1px solid silver;
   background: white;
-  opacity: 0.8;  
+  opacity: 0.7;  
   text-align: right; 
 }
 

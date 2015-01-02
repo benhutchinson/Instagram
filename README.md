@@ -69,7 +69,7 @@ $(document).ready(function() {
 - How to rollback database migrations
 
 ####Things To Improve Project
-- Responsive Design
+- Responsive Design.  I need to learn more about this and positioning.
 - Mobile Design
 - AWS for hosting static files
 - A bespoke sprite could be created, and unused icons deleted

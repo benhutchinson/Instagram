@@ -28,6 +28,140 @@ body {
  height: 100%;
 }
 
+nav{
+  position: fixed;
+  margin-top: -44px;
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid #1c5380;
+  border-bottom-color: rgba(4,40,71,.8);
+  -webkit-box-shadow: 0 1px 0 rgba(111,151,182,.5)inset,0 -1px 0 rgba(111,151,182,.2)inset,0 1px 1px rgba(0,0,0,.2);
+  background-color: #517fa4;
+  background-image: url("navbarnoise.png"),-webkit-linear-gradient(top,#517fa4,#306088);
+  text-align: center;
+  z-index: 1000;
+}
+
+.nav_element_group {
+  margin-top: 0;
+  top: 0;
+  text-align: center;
+  padding-left: 13%;
+  padding-right: 13%;
+  width: 100%; 
+}
+
+.header-box{
+  background-color: rgba(6,54,95,.35);
+  background-image: url("navbarnoise.png");
+  height: 44px;
+  width: 44px; 
+  float: left;
+  box-shadow: -1px 0 0 #5786aa;
+  border-right: 1px solid #06365f;
+  border-right-color: rgba(0,0,0,.1);
+  border-left: 1px solid #06365f;
+  border-left-color: rgba(0,0,0,.1);
+  background-image:url('sprite.png');
+  background-position: 5px -194px;
+  cursor: pointer;
+  display: inline;
+}
+
+.post-box{
+  height: 44px;
+  width: 44px; 
+  float: left;
+  box-shadow: -1px 0 0 #5786aa;
+  cursor: pointer;
+  display: inline;
+}
+
+.post-image {
+  width: 26px;
+  height: 26px;
+  padding-top: 10px; 
+  padding-left: 6px; 
+  -webkit-filter: invert(100%);
+  opacity: 0.85;
+}
+
+.post-image:hover {
+  opacity: 1;
+}
+
+.sign-out-box{
+  height: 44px;
+  width: 40px; 
+  float: left;
+  cursor: pointer;
+  display: inline;
+}
+
+.sign-out-image {
+  width: 17px;
+  height: 17px;
+  padding-top: 13px; 
+  padding-left: 0px; 
+  -webkit-filter: invert(100%);
+  opacity: 0.85;
+}
+
+.sign-out-image:hover {
+  opacity: 1;
+}
+
+.logo-box{
+  height: 44px;
+  text-align: center;
+  border-right: 1px solid #5786aa;
+  border-right-color: rgba(255,255,255,.1);
+  display: inline;
+  float: left;
+  width: 56%;
+}
+
+.username-box{
+  width: 110px;
+  height: 32px;
+  float: left;
+  display: block;
+  padding-top: 12px; 
+  padding-left: 11px;
+  padding-right: 3px; 
+  border-left: 1px solid #06365f;
+  border-left-color: rgba(0,0,0,.1);
+  box-shadow: 0px 0 1px -1px  #5786aa;
+  font-weight: 700;
+  text-shadow: 0 1px 0 rgba(3,27,47,.5);
+  color: white;
+  line-height: 20px; 
+  opacity: 0.95;
+  letter-spacing: -0.5px;
+}
+
+#username-text{
+  vertical-align: top; 
+}
+
+.avatar-image {
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  margin-right: 8px; 
+  margin-top: -2px; 
+  text-shadow: 0 1px 0 rgba(3,27,47,.5);
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.2);
+}
+
+.logo-image {
+  margin-top: 10px;
+  -webkit-filter: grayscale(100%) brightness(10) drop-shadow(1px 1px 1px rgba(4,40,71,.8));
+  color: white;
+  width: 90px;
+  opacity: 0.95;
+}
+
 #front-page-animation path, line, polyline {
   stroke: #16a085;
   stroke-width: 3px;
@@ -218,139 +352,6 @@ body {
   text-align: center;
 }
 
-nav{
-  position: fixed;
-  margin-top: -44px;
-  width: 100%;
-  height: 44px;
-  border-bottom: 1px solid #1c5380;
-  border-bottom-color: rgba(4,40,71,.8);
-  -webkit-box-shadow: 0 1px 0 rgba(111,151,182,.5)inset,0 -1px 0 rgba(111,151,182,.2)inset,0 1px 1px rgba(0,0,0,.2);
-  background-color: #517fa4;
-  background-image: url("navbarnoise.png"),-webkit-linear-gradient(top,#517fa4,#306088);
-  text-align: center;
-}
-
-.nav_element_group {
-  margin-top: 0;
-  top: 0;
-  text-align: center;
-  padding-left: 13%;
-  padding-right: 13%;
-  width: 100%; 
-}
-
-.header-box{
-  background-color: rgba(6,54,95,.35);
-  background-image: url("navbarnoise.png");
-  height: 44px;
-  width: 44px; 
-  float: left;
-  box-shadow: -1px 0 0 #5786aa;
-  border-right: 1px solid #06365f;
-  border-right-color: rgba(0,0,0,.1);
-  border-left: 1px solid #06365f;
-  border-left-color: rgba(0,0,0,.1);
-  background-image:url('sprite.png');
-  background-position: 5px -194px;
-  cursor: pointer;
-  display: inline;
-}
-
-.post-box{
-  height: 44px;
-  width: 44px; 
-  float: left;
-  box-shadow: -1px 0 0 #5786aa;
-  cursor: pointer;
-  display: inline;
-}
-
-.post-image {
-  width: 26px;
-  height: 26px;
-  padding-top: 10px; 
-  padding-left: 6px; 
-  -webkit-filter: invert(100%);
-  opacity: 0.85;
-}
-
-.post-image:hover {
-  opacity: 1;
-}
-
-.sign-out-box{
-  height: 44px;
-  width: 40px; 
-  float: left;
-  cursor: pointer;
-  display: inline;
-}
-
-.sign-out-image {
-  width: 17px;
-  height: 17px;
-  padding-top: 13px; 
-  padding-left: 0px; 
-  -webkit-filter: invert(100%);
-  opacity: 0.85;
-}
-
-.sign-out-image:hover {
-  opacity: 1;
-}
-
-.logo-box{
-  height: 44px;
-  text-align: center;
-  border-right: 1px solid #5786aa;
-  border-right-color: rgba(255,255,255,.1);
-  display: inline;
-  float: left;
-  width: 56%;
-}
-
-.username-box{
-  width: 110px;
-  height: 32px;
-  float: left;
-  display: block;
-  padding-top: 12px; 
-  padding-left: 11px;
-  padding-right: 3px; 
-  border-left: 1px solid #06365f;
-  border-left-color: rgba(0,0,0,.1);
-  box-shadow: 0px 0 1px -1px  #5786aa;
-  font-weight: 700;
-  text-shadow: 0 1px 0 rgba(3,27,47,.5);
-  color: white;
-  line-height: 20px; 
-  opacity: 0.95;
-  letter-spacing: -0.5px;
-}
-
-#username-text{
-  vertical-align: top; 
-}
-
-.avatar-image {
-  width: 24px;
-  height: 24px;
-  border-radius: 3px;
-  margin-right: 8px; 
-  margin-top: -2px; 
-  text-shadow: 0 1px 0 rgba(3,27,47,.5);
-  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.2);
-}
-
-.logo-image {
-  margin-top: 10px;
-  -webkit-filter: grayscale(100%) brightness(10) drop-shadow(1px 1px 1px rgba(4,40,71,.8));
-  color: white;
-  width: 90px;
-  opacity: 0.95;
-}
-
 section#post-details {
   margin-top: 25px; 
   width: 200px;
@@ -433,7 +434,6 @@ section#post-group {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  float: center;
   clear: both;
 }
 
@@ -442,9 +442,7 @@ section#post-group-no-post {
   margin-left: 0px;
   margin-right: 0px;
   display: block;
-  float: center;
   clear: both;
-  height: 100%; 
 }
 
 section#blank-filler {
@@ -475,7 +473,6 @@ section#main-element {
 
 section#whole-post-no-post{
   width: 100%;
-  height: 100%;
   margin-left: -40px; 
   text-align: center;
 }
@@ -487,7 +484,6 @@ section#main-element-no-post {
   text-align: center;
   width: 100%;
   height: 940px;
-  overflow: hidden;
   padding: 32px 32px 16px 32px;
   float: left;
   display: inline;

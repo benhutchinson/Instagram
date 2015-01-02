@@ -78,3 +78,4 @@ $(document).ready(function() {
 - Vertically-centre the sign-in elements?
 - Revisit overall design consistency
 - Integrate Devise Error Messages Neatly Into Design
+- Refactor CSS Into Multiple Files

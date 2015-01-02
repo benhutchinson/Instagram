@@ -75,5 +75,5 @@ $(document).ready(function() {
 - A bespoke sprite could be created, and unused icons deleted
 - Offer users ability to modify their profile
 - Perhaps restrict the number of comments/likes individual users can make
-- Spend more time researching styling of f.file_field and checkboxes
+- Spend more time researching styling of f.file_field, checkboxes, browser autocomplete
 - Vertically-centre the sign-in elements?

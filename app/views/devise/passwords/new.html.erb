@@ -41,7 +41,7 @@
   </section>
 
   <section id="right-password-page">
-    <%= form_for(resource, as: resource_name, url: password_path(resource_name), :html => { method: :post, :id => "password-form"}) do |f| %>
+    <%= form_for(resource, as: resource_name, url: password_path(resource_name), :html => { method: :post, :id => "password-form", :autocomplete =>"off"}) do |f| %>
       <%= devise_error_messages! %>
 
       <div class="field"> 

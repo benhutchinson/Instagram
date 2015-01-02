@@ -42,7 +42,7 @@
 
   <section id="right-new-user-page">
   
-    <%= form_for(resource, as: resource_name, url: registration_path(resource_name), :html => { :id => "new-user-form"}) do |f| %>
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name), :html => { :id => "new-user-form", :autocomplete => "off"}) do |f| %>
       <%= devise_error_messages! %>
 
       <div class="field">

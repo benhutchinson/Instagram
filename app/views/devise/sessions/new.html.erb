@@ -3,7 +3,7 @@
 <section id="front-sign-in-page">
   <section id="left-sign-in-page">
 
-    <%= form_for(resource, as: resource_name, url: session_path(resource_name), :html => { :id => "front-sign-in-form"}) do |f| %>
+    <%= form_for(resource, as: resource_name, url: session_path(resource_name), :html => { :id => "front-sign-in-form", :autocomplete => "off"}) do |f| %>
       <div class="field">
         <%= f.text_field :login, placeholder: "username", autofocus: true %>
       </div>

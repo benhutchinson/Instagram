@@ -41,9 +41,9 @@ context "user signed-up and signed-in" do
     visit '/'
   end
 
-  it "should go straight to content and see 'no posts' if there is no content" do
-    expect(page).to have_content 'No posts'
-    expect(page).to have_link 'Post'
+  it "should go straight to content and see nav elements" do
+    expect(page).to have_content 'user'
+    expect(page).to have_xpath("//img[contains(@src,'logo.svg')]")  
   end
 
   it "should not see a 'sign in' link and a 'sign up' link" do

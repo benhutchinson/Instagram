@@ -33,7 +33,7 @@
   <% end %>
   <div class="post-box">
     <% if user_signed_in? %>
-      <%= link_to (image_tag 'cameraicon.png', :class => "post-image"), new_post_path %>
+      <%= link_to (image_tag 'cameraicon.png', :class => "post-image", :alt => 'submit a photo'), new_post_path %>
     <% else %>
     <% end %>
   </div>

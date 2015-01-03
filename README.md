@@ -79,3 +79,4 @@ $(document).ready(function() {
 - Revisit overall design consistency
 - Integrate Devise Error Messages Neatly Into Design
 - Refactor CSS Into Multiple Files
+- TDD could have been followed more closely during the development process

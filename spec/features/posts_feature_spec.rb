@@ -58,7 +58,7 @@ feature 'posts: ' do
       click_button "// post"
     end
 
-    scenario 'a user can remove a they have created when they click the delete link' do
+    scenario 'a user can remove a post they have created when they click the delete link' do
       click_link('delete-post')
       expect(page).not_to have_content 'totes amazeballs'
       expect(page).to have_content('No posts')

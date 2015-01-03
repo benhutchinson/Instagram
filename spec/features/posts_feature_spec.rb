@@ -50,7 +50,6 @@ feature 'posts: ' do
   end
 
   context 'deleting posts' do
-
     before do
       visit '/posts'
       click_link('submit a photo')

@@ -80,3 +80,5 @@ $(document).ready(function() {
 - Integrate Devise Error Messages Neatly Into Design
 - Refactor CSS Into Multiple Files
 - TDD could have been followed more closely during the development process
+- More validations & associated unit tests : e.g. a photo must be attached to a post
+- Deeper look at ImageMagick compression, crop settings

@@ -38,7 +38,7 @@ feature 'posts: ' do
       click_button "// post"
     end
 
-    scenario 'show posts' do
+    scenario 'should be shown to logged-in users' do
       logout(:user)
       visit '/posts'
       expect(page).to have_link('sign-up')
@@ -46,6 +46,10 @@ feature 'posts: ' do
       visit '/posts'
       expect(page).to have_content('totes amazeballs')
       expect(page).not_to have_content('No posts')
+    end
+
+    scenario 'should show roughly how long ago they were posted', js: true do
+      expect(page).to have_content('less than a minute ago')
     end
   end
 

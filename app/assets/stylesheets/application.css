@@ -165,6 +165,7 @@ nav{
 #front-page-animation path, line, polyline {
   stroke: #16a085;
   stroke-width: 3px;
+  transition: stroke 2s ease-in, stroke-width 2s ease-in;
 }
 
 #front-page-animation path {
@@ -179,6 +180,7 @@ nav{
 #password-page-animation path, line, polyline {
   stroke: #2c3e50;
   stroke-width: 3px;
+  transition: stroke 2s ease-in;
 }
 
 #password-page-animation path {
@@ -192,6 +194,7 @@ nav{
 #new-user-page-animation path, line, polyline {
   stroke: #16a085;
   stroke-width: 3px;
+  transition: stroke 2s ease-in;
 }
 
 #new-user-page-animation path {

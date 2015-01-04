@@ -578,21 +578,19 @@ section#no-post {
   margin-top: 50px;  
   line-height: 20px; 
   border-radius: 1px;
-  border: 1px solid silver;
-  background: white;
-  opacity: 0.7;  
+  background: rgba(0,0,0,0.7);
   text-align: right; 
 }
 
 section#no-post input {
+  background-color: transparent;
   border: 1px solid transparent;
   padding: 10px 15px 0px 15px;
   margin-bottom: 15px; 
-  background-color: white;
-  font-size: 1em; 
+  color: white;
+  font-size: 1.05em; 
   border-radius: 2px; 
   border-bottom: 1px solid silver; 
-  color: black;
   font-family: 'proxima-nova-bold';
 }
 
@@ -603,10 +601,9 @@ section#no-post input:focus {
 }
 
 section#no-post ::-webkit-input-placeholder {
-  color: black;
+  color: white;
   text-align: left;
 }
-
 
 section#submit-comments {
   margin-top: 0px; 

@@ -24,6 +24,11 @@ config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
 - How to load icons from a sprite file
 
+- The advantage and control rgba() values give you over background opacity vs applying opacity to the whole container element
+```css
+   background: rgba(0,0,0,0.7);
+```
+
 - How to chain filters in CSS
 
 ```css

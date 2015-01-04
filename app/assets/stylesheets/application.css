@@ -236,10 +236,30 @@ nav{
   text-align: right;
 }
 
+#new-user-page-container {
+  height: 100%;
+  width: 100%;
+  content: "";
+  /*text-align: center;*/
+}
+
+/*#new-user-page {
+  width: 801px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  vertical-align: middle;
+}*/
+
 #new-user-page {
-  margin-left: 23%;
-  margin-right: 18%;
-  margin-top: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  margin-left: -400px;
+  margin-top: -200px; 
   width: 801px;
 }
 

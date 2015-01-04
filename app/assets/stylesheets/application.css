@@ -163,6 +163,7 @@ nav{
 }
 
 #front-page-container {
+  background-color: #ecf0f1; 
   position: absolute;
   display: inline-block;
   height: 100%;
@@ -170,28 +171,25 @@ nav{
   content: "";
   text-align: center;
   vertical-align: middle;
+  margin-top: -45px; 
 }
 
 #front-sign-in-page {
-/*  margin-left: 25%;
-  margin-right: 22%;
-  margin-top: auto;
-  margin-bottom: auto;*/
-  height: 100%;
   width: 690px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 #left-sign-in-page {
   padding-top: 100px; 
-  display: inline;
+  display: inline-block;
   float: left;
   margin-right: 90px;
   text-align: right;
 }
 
 #right-sign-in-page {
-  display: inline;
+  display: inline-block;
   float: left;
 }
 
@@ -362,6 +360,7 @@ nav{
   display: block;
   clear: both;
   text-align: center;
+  margin-bottom: 25px; 
 }
 
 section#post-details {

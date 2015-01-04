@@ -240,18 +240,7 @@ nav{
   height: 100%;
   width: 100%;
   content: "";
-  /*text-align: center;*/
 }
-
-/*#new-user-page {
-  width: 801px;
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  vertical-align: middle;
-}*/
 
 #new-user-page {
   position: absolute;
@@ -315,10 +304,19 @@ nav{
   float: left;
 }
 
+#password-page-container {
+  height: 100%;
+  width: 100%;
+  content: "";
+}
+
 #password-page {
-  margin-left: 24%;
-  margin-right: 20%;
-  margin-top: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  margin-left: -350px;
+  margin-top: -220px; 
   width: 705px;
 }
 

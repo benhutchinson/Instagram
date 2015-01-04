@@ -1,7 +1,7 @@
 Instagram
 =========
 
-This challenge involves building Instagram using Ruby on Rails. Users must be able to post pictures, write comments on pictures, and like a picture.  The design should mirror or improve upon Instagram. The challenge draws on experience from a previous project building a clone of Yelp.  I chose to learn a little about SVG and use this to style the key registration and sign-in pages.  The app is [hosted on Heroku.](https://beninst.herokuapp.com/)
+This challenge involves building Instagram using Ruby on Rails. Users must be able to post pictures, write comments on pictures, and like a picture.  The design should mirror or improve upon Instagram. The challenge draws on experience from a previous project building a clone of Yelp.  I chose to learn a little about SVG and use this to style the key registration and sign-in pages.  The app is [hosted on Heroku.](https://beninst.herokuapp.com/). 
 
 ####List Of Core Models For The App
 - User
@@ -24,7 +24,8 @@ config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
 - How to load icons from a sprite file
 
-- The advantage and control rgba() values give you over background opacity vs applying opacity to the whole container element
+- The advantage and control rgba() values give you over background opacity vs applying opacity to the whole container element.  [A fantastic CSS resource that taught me this is here.](http://www.atozcss.com/episodes/)
+
 ```css
    background: rgba(0,0,0,0.7);
 ```

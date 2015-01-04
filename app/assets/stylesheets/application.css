@@ -162,6 +162,39 @@ nav{
   opacity: 0.95;
 }
 
+#front-page-container {
+  position: absolute;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  content: "";
+  text-align: center;
+  vertical-align: middle;
+}
+
+#front-sign-in-page {
+/*  margin-left: 25%;
+  margin-right: 22%;
+  margin-top: auto;
+  margin-bottom: auto;*/
+  height: 100%;
+  width: 690px;
+  display: inline-block;
+}
+
+#left-sign-in-page {
+  padding-top: 100px; 
+  display: inline;
+  float: left;
+  margin-right: 90px;
+  text-align: right;
+}
+
+#right-sign-in-page {
+  display: inline;
+  float: left;
+}
+
 #front-page-animation path, line, polyline {
   stroke: #16a085;
   stroke-width: 3px;
@@ -176,34 +209,6 @@ nav{
   stroke: #2c3e50;
   stroke-width: 4px;
 }
-
-#password-page-animation path, line, polyline {
-  stroke: #2c3e50;
-  stroke-width: 3px;
-  transition: stroke 2s ease-in;
-}
-
-#password-page-animation path {
-    fill: transparent;
-  }
-
-#password-page-animation:hover path, line, polyline {
-    stroke: white;
-  }
-
-#new-user-page-animation path, line, polyline {
-  stroke: #16a085;
-  stroke-width: 3px;
-  transition: stroke 2s ease-in;
-}
-
-#new-user-page-animation path {
-    fill: transparent;
-  }
-
-#new-user-page-animation:hover path, line, polyline {
-    stroke: white;
-  }
 
 #front-sign-in-form input {
   border: 1px solid #F8F9FA;
@@ -233,6 +238,20 @@ nav{
   margin-right: 18%;
   margin-top: 80px;
   width: 801px;
+}
+
+#new-user-page-animation path, line, polyline {
+  stroke: #16a085;
+  stroke-width: 3px;
+  transition: stroke 2s ease-in;
+}
+
+#new-user-page-animation path {
+  fill: transparent;
+}
+
+#new-user-page-animation:hover path, line, polyline {
+  stroke: white;
 }
 
 #new-user-form input {
@@ -273,14 +292,25 @@ nav{
   float: left;
 }
 
-#password-form input {
-  border: 1px solid #F8F9FA;
-  padding: 12px 15px 12px 15px;
-  margin-bottom: 15px; 
-  background-color: transparent;
-  font-size: 1em; 
-  border-radius: 4px; 
-  color: white;
+#password-page {
+  margin-left: 24%;
+  margin-right: 20%;
+  margin-top: 80px;
+  width: 705px;
+}
+
+#password-page-animation path, line, polyline {
+  stroke: #2c3e50;
+  stroke-width: 3px;
+  transition: stroke 2s ease-in;
+}
+
+#password-page-animation path {
+  fill: transparent;
+}
+
+#password-page-animation:hover path, line, polyline {
+  stroke: white;
 }
 
 #password-form input:focus {
@@ -293,23 +323,6 @@ nav{
 #password-form ::-webkit-input-placeholder {
   color: white;
   text-align: left;
-}
-
-.devise-links a {
-  font-size: 0.9em;
-  text-decoration: none;
-  opacity: 0.15;
-}
-
-.devise-links a:hover {
-  opacity: 1; 
-}
-
-#password-page {
-  margin-left: 24%;
-  margin-right: 20%;
-  margin-top: 80px;
-  width: 705px;
 }
 
 #left-password-page {
@@ -325,28 +338,24 @@ nav{
   float: left;
 }
 
-#front-sign-in-page {
-  margin-left: 25%;
-  margin-right: 22%;
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 100%;
-  width: 690px;
+#password-form input {
+  border: 1px solid #F8F9FA;
+  padding: 12px 15px 12px 15px;
+  margin-bottom: 15px; 
+  background-color: transparent;
+  font-size: 1em; 
+  border-radius: 4px; 
+  color: white;
 }
 
-#left-sign-in-page {
-  padding-top: 100px; 
-  display: inline;
-  float: left;
-  margin-right: 90px;
-  text-align: right;
-  height: 100%;
+.devise-links a {
+  font-size: 0.9em;
+  text-decoration: none;
+  opacity: 0.15;
 }
 
-#right-sign-in-page {
-  display: inline;
-  float: left;
-  height: 100%;
+.devise-links a:hover {
+  opacity: 1; 
 }
 
 #help-links {

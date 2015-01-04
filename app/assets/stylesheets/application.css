@@ -165,7 +165,7 @@ nav{
 #front-page-container {
   background-color: #ecf0f1; 
   position: absolute;
-  display: inline-block;
+  display: inline;
   height: 100%;
   width: 100%;
   content: "";
@@ -177,6 +177,11 @@ nav{
 #front-sign-in-page {
   width: 690px;
   display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -345px;
+  margin-top: -260px; 
   vertical-align: middle;
 }
 

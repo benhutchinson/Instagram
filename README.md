@@ -75,8 +75,7 @@ $(document).ready(function() {
 - How to rollback database migrations
 
 ####Things To Improve Project
-- Responsive Design.  I need to learn more about this and positioning.
-- Mobile Design
+- Responsive & Mobile Design.  I need to learn more about this and positioning.
 - A bespoke sprite could be created, and unused icons deleted
 - Offer users ability to modify their profile
 - Perhaps restrict the number of comments/likes individual users can make
@@ -86,4 +85,5 @@ $(document).ready(function() {
 - Refactor CSS Into Multiple Files
 - TDD could have been followed more closely during the development process
 - More validations & associated unit tests : e.g. a photo must be attached to a post
-- Deeper look at ImageMagick compression, crop settings
+- Deeper look at ImageMagick compression, crop settings, image file-type validations
+- Testing the comments functionality
